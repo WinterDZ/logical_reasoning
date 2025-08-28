@@ -27,7 +27,7 @@ import torch
 from peft import PeftModel
 
 mode_path = './model/qwen/qwen2-7b-instruct/'
-lora_path = './src/output/Qwen2_instruct_lora/checkpoint-1800' # 这里改称你的 lora 输出对应 checkpoint 地址
+lora_path = './src/output/Qwen2_instruct_lora/checkpoint-1800' # 这里改成 lora 输出对应 checkpoint 地址
 
 # 加载tokenizer
 tokenizer = AutoTokenizer.from_pretrained(mode_path, trust_remote_code=True)
